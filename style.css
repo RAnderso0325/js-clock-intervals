@@ -1,0 +1,20 @@
+#clock {position: relative;
+}
+
+#clock img {
+}
+
+#second {
+	position: relative;
+	top: -1810px;
+}
+
+#minute {
+	position: relative;
+	top: -1205px;
+}
+
+#hour {
+	position: relative;
+	top: -600px;
+}
