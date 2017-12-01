@@ -1,20 +1,20 @@
-#clock {position: relative;
+#clock {
+	position: relative;
 }
 
 #clock img {
+	position: absolute;
 }
 
 #second {
-	position: relative;
-	top: -1810px;
+	position: absolute;
+	/*transition: all 1s linear;*/
 }
 
 #minute {
-	position: relative;
-	top: -1205px;
+	position: absolute;
 }
 
 #hour {
-	position: relative;
-	top: -600px;
+	position: absolute;
 }

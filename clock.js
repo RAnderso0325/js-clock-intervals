@@ -22,10 +22,10 @@ function setHour(h,m){
 function updateHands(){
 	var date = new Date();
 	var s = date.getSeconds();
-	setSecond(s);
 	var m = date.getMinutes();
-	setMinute(m,s);
 	var h = date.getHours();
+	setSecond(s);
+	setMinute(m,s);
 	setHour(h,m);
 	
 	// crazy will make the hands go really fast!
